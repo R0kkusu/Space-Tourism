@@ -31,8 +31,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Frontend Mentor](https://www.frontendmentor.io/solutions/responsive-landing-page-using-nuxt-and-tailwind-css-FTrgtuaEA)
-- Live Site URL: [Netlify hosted webpage](https://thirsty-archimedes-a0d572.netlify.app/)
+- Solution URL: [Frontend Mentor]
+- Live Site URL: [Netlify hosted webpage]
 
 ## My process
 
