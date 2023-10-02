@@ -44,55 +44,8 @@ Users should be able to:
 - [Nuxt](https://nuxtjs.org/) - Vue framework
 - [Tailwind CSS](https://tailwindcss.com/) - For styling
 
-### What I learned
-
-```tailwind
-<div class="md:text-left grid col-span-6 col-start-4 md:order-3 md:col-span-10 md:col-start-3 lg:col-span-4 lg:row-span-5">
-  <img
-    class="pt-8 lg:mx-8"
-    :src=" members.crew[`${$route.query.member}`].images.webp"
-  />
-</div>
-```
-```css
-.underlined, .nuxt-link-exact-active {
-  position: relative;
-}
-
-.underlined::after { 
-  content: "";
-  position: absolute;
-  top: 240%;
-  display: block;
-  height: 2px;
-  background: #979797;
-}
-
-.top-header .nuxt-link-exact-active::after { 
-  background: white;
-  content: "";
-  position: absolute;
-  top: 240%;
-  display: block;
-  height: 2px;
-  width: 100%; 
-}
-
-.underlined:hover::after { 
-  width: 100%; 
-  left: 0; 
-}
-```
-
-### Continued development
-
-Improve on how to make it so that the background image doesn't get cut off in some screens and improve responsiveness.
 
 ### Useful resources
 
 - [Tailwind playground](https://play.tailwindcss.com/) - Testing out tailwind classes.
 
-## Author
-
-- Website - [Constantino Saldana](https://www.csaldana.xyz)
-- Frontend Mentor - [@antinomezco](https://www.frontendmentor.io/profile/antinomezco)
